@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+</head>
+<body style="margin: 0; padding: 24px; color: #222; font-family: Arial, sans-serif;">
+  <header style="max-width: 900px; margin: 0 auto 16px; padding-bottom: 12px; border-bottom: 1px solid #555; display: flex; align-items: center; gap: 24px;">
+    <div style="width: 90px; height: 90px; border: 1px solid #777; display: flex; align-items: center; justify-content: center; text-align: center; flex-shrink: 0;">
+      Logo
+    </div>
+    <div>
+      <h1 style="margin: 0 0 8px; font-size: 24px;">Nama Website</h1>
+      <p style="margin: 0;">Halaman Profil</p>
+    </div>
+  </header>
+
+  <nav aria-label="Navigasi utama" style="max-width: 900px; margin: 0 auto 20px; padding: 10px 0; border-bottom: 1px solid #aaa;">
+    <a href="#profil" style="margin-right: 18px; color: #222;">Profil</a>
+    <a href="#media" style="margin-right: 18px; color: #222;">Media</a>
+    <a href="#lampiran" style="color: #222;">Lampiran</a>
+  </nav>
+
+  <main style="max-width: 900px; margin: 0 auto;">
+    <article id="profil">
+        <section aria-labelledby="judul-profil" style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
+          <img src="assets/aca.jpeg" alt="Foto profil Alrasya Devendra" width="150" height="150" style="border: 1px solid #777; object-fit: cover;">
+          <div style="flex: 1 1 280px;">
+            <h2 id="judul-profil" style="margin: 0 0 12px;">Alrasya Devendra</h2>
+            <p style="margin: 6px 0;">Alamat: Depok, Jawa Barat</p>
+            <p style="margin: 6px 0;">Email: <a href="mailto:alraysadevendra@gmail.com">alraysadevendra@gmail.com</a></p>
+            <p style="margin: 6px 0;">Telepon: 0812-3456-7890</p>
+          </div>
+        </section>
+
+        <section aria-label="Tentang saya">
+          <p style="line-height: 1.6;">Halo, saya Alrasya Devendra, mahasiswa Teknik Informatika di STT Terpadu Nurul Fikri (STT NF). Saya mempelajari dasar-dasar komputasi, pemrograman, dan teknologi informasi.</p>
+          <p style="line-height: 1.6;">Sebagai mahasiswa, saya terus mengembangkan pengetahuan dan keterampilan di bidang informatika melalui perkuliahan dan berbagai latihan. Saya berharap dapat menerapkan ilmu yang dipelajari untuk membuat solusi teknologi yang bermanfaat.</p>
+        </section>
+
+        <section id="media" aria-labelledby="judul-media" style="margin-top: 24px;">
+          <h2 id="judul-media" style="font-size: 20px;">Media</h2>
+          <h3 style="margin: 0 0 10px; font-size: 16px;">Koleksi Foto</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <img src="assets/aca.jpeg" alt="Foto koleksi Alrasya Devendra" width="150" height="110" style="border: 1px solid #777; object-fit: cover;">
+          </div>
+        </section>
+    </article>
+
+    <section id="lampiran" aria-labelledby="judul-lampiran" style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #aaa;">
+      <h2 id="judul-lampiran" style="font-size: 20px;">Lampiran</h2>
+      <p><a href="cv.pdf" download>Unduh CV (PDF)</a></p>
+    </section>
+  </main>
+</body>
+</html>
